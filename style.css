@@ -1,0 +1,95 @@
+body {background: #FDFDFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+@font-face {
+    font-family: FiraGo;
+    src: url(..//fonts/FiraGO-Regular.woff)
+}
+.card {
+    width: 718px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-right: 51px;
+    padding-bottom: 63px;
+    padding-left: 51px;
+}
+h1 {font-family: FiraGo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+    margin-bottom: 26px;
+}
+.inputitems label {
+    display: block;
+    font-family: FiraGo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;  
+    margin-bottom: 5px; 
+ }
+ .inputitems input {
+     background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+   width: 100%;
+    height: 14px;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    box-sizing: border-box;
+     
+    }
+    .mb1 {margin-bottom: 18px;}
+    .mb2 {margin-bottom: 13px;}
+    .c {margin-bottom: 28px;
+        font-family:FiraGo ;}
+    .lostpassword {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;        
+        color: #0653AD;
+    }
+    .cardfooter {
+        display: flex;
+    align-items: center;
+    justify-content: space-between;}
+    .cardfooter span {
+        font-family: FiraGo;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #000000;
+    }
+    .cardfooter a {
+        font-family: FiraGo;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #0653AD;
+    }
+    .btn {
+        background: #FFDD04;
+        border-radius: 10px;
+        font-family: 'FiraGO';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        font-family: FiraGo;
+        width: 207px;
+        height: 45px;
+        border: 1px solid transparent;
+}
